@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="conatainer">
+        <h1 id="heading">BMI Calculator</h1>
+        <div class="age">
+            <label for="age" class="age-label" >Age</label>
+            <input class="age-input" type="text" name="age"  required autocomplete="off" id="age">
+        </div>
+        <p id="required1">Required*</p>
+        <div class="gender">
+            <div class="male">
+                <input type="radio" name="gender" class="gender-input" id="male" required>
+                <label for="gender" class="gender-label">Male</label>
+            </div>
+            <div class="female">
+                <input type="radio" id="female" name="gender" class="gender-input" required>
+                <label for="gender" class="gender-label">Female</label>
+            </div>
+        </div>
+        <p id="required2">Required*</p>
+
+        <div class="messure">
+            <div id="box">
+                <label for="height" class="height-label">Height(cm)</label>
+                <input type="text" name="height" required autocomplete="off"  class="messure-input" id="height">
+            </div>
+
+            <div id="box">
+                <label for="weight" class="height-label"></label>Weight(kg)</label>
+                <input type="text" name="weight" required autocomplete="off" class="messure-input" id="weight">
+            </div>
+        </div>
+        <p id="required3">Required*</p>
+
+        <button id="Calculate-btn">Calculate EMI</button>
+        <h2 id="bmi-heading">Your BMI is</h2>
+        <h1  id="result">00:00</h1>
+        <h1 id="resultText"> You are <span id="span-result">Extremely obese</span> </h1>
+
+
+    </div>
+
+</body>
+<script src="./bmicalc.js"></script>
+
+</html>

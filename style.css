@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #0a62a7;
+}
+.conatainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #cdcdcd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#required1,#required2,#required3{
+    font-size: 0.8rem;
+    color: #ac1919;
+    display: none;
+}
+
+.age {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0.5rem;
+    background-color: #dcdcdc;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.age .age-label {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.age .age-input {
+    outline: none;
+    border-width: 0 0 2px;
+    border-color: #818181;
+    width: 150px;
+    margin: auto;
+    background-color: transparent;
+    height: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.gender {
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem 0 0.5rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+
+}
+
+.gender-label {
+    font-size: 1.3rem;
+
+}
+
+.messure {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 2rem 0 0.5rem;
+
+}
+
+.messure #box {
+    padding: 10px;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+
+.messure-input {
+    width: 100px;
+    margin-top: 10px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    outline: none;
+    background-color: transparent;
+    border-width: 0 0 2px;
+    border-color: #818181;
+
+}
+
+#Calculate-btn {
+    width: 100%;
+    height: 30px;
+    margin: 1rem 0;
+    background-color: #7a7a7d;
+    outline: none;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 10px;
+
+}
+
+#bmi-heading {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    width: 150px;
+    border: 1px solid;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+#resultText{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+#span-result{
+    color: #33337f;
+}
