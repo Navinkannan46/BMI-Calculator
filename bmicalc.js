@@ -70,7 +70,7 @@ const build = () => {
 
     result.innerHTML = formula.toFixed(2)
     resultText.style.display = 'block'
-    spanResult.innerhtml = resultArea
+    spanResult.innerHTML = resultArea
 
 
 
